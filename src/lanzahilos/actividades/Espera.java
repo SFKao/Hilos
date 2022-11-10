@@ -1,4 +1,4 @@
-package actividades;
+package lanzahilos.actividades;
 
 import lanzahilos.HiloThread;
 

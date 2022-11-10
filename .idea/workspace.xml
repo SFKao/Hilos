@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hilos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actividades/DosUno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actividades/Espera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lanzahilos/Hilo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lanzahilos/HiloThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lanzahilos/LanzaHilos.java" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Subo las practicas de hilos">
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/Contador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/HiloContador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/LanzadorHilos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/LanzadorHilosBusqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/actividadExtraDelLibro/ContabilizarEncuesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actividades/DosUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lanzahilos/actividades/DosUno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actividades/Espera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lanzahilos/actividades/Espera.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +45,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Espera">
-    <configuration name="DosUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="actividades.DosUno" />
+  <component name="RunManager" selected="Application.ContabilizarEncuesta">
+    <configuration name="ContabilizarEncuesta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.actividadExtraDelLibro.ContabilizarEncuesta" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actividades.*" />
+          <option name="PATTERN" value="cooperacion.actividades.actividadExtraDelLibro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,11 +60,11 @@
       </method>
     </configuration>
     <configuration name="Espera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="actividades.Espera" />
+      <option name="MAIN_CLASS_NAME" value="lanzahilos.actividades.Espera" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actividades.*" />
+          <option name="PATTERN" value="lanzahilos.actividades.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,18 +72,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lanzahilos.LanzaHilos" />
+    <configuration name="LanzadorHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.LanzadorHilos" />
       <module name="Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cooperacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LanzadorHilosBusqueda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.LanzadorHilosBusqueda" />
+      <module name="Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cooperacion.actividades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sincronizador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.actividadExtraDelLibro.Sincronizador" />
+      <module name="Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cooperacion.actividades.actividadExtraDelLibro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContabilizarEncuesta" />
+        <item itemvalue="Application.LanzadorHilosBusqueda" />
+        <item itemvalue="Application.Sincronizador" />
+        <item itemvalue="Application.LanzadorHilosSinCuidado" />
         <item itemvalue="Application.Espera" />
-        <item itemvalue="Application.DosUno" />
-        <item itemvalue="Application.LanzaHilos" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667490116985</updated>
     </task>
+    <task id="LOCAL-00001" summary="Subo las practicas de hilos">
+      <created>1668096763144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668096763145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Subo las practicas de hilos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subo las practicas de hilos" />
   </component>
 </project>
