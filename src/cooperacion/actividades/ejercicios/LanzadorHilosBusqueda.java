@@ -1,4 +1,4 @@
-package cooperacion.actividades;
+package cooperacion.actividades.ejercicios;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package cooperacion;
+package cooperacion.actividades.explicacion;
 
 public class Contador {
     private int contador = 0;

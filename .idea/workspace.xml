@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Subo las practicas de hilos">
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/Contador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/HiloContador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/LanzadorHilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/LanzadorHilosBusqueda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/actividadExtraDelLibro/ContabilizarEncuesta.java" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="synchronous">
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/sincronizacion_hilos_clase/dos_seis/LanzaContadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/sincronizacion_hilos_clase/dos_siete/LanzaTransferencias.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actividades/DosUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lanzahilos/actividades/DosUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actividades/Espera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lanzahilos/actividades/Espera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cooperacion/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooperacion/actividades/explicacion/Contador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cooperacion/HiloContador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooperacion/actividades/explicacion/HiloContador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cooperacion/LanzadorHilos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooperacion/actividades/explicacion/LanzadorHilos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cooperacion/actividades/LanzadorHilosBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooperacion/actividades/ejercicios/LanzadorHilosBusqueda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ContabilizarEncuesta">
+  <component name="RunManager" selected="Application.LanzaTransferencias">
     <configuration name="ContabilizarEncuesta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.actividadExtraDelLibro.ContabilizarEncuesta" />
       <module name="Hilos" />
@@ -59,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Espera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lanzahilos.actividades.Espera" />
+    <configuration name="LanzaContadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_seis.LanzaContadores" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lanzahilos.actividades.*" />
+          <option name="PATTERN" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_seis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzadorHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.LanzadorHilos" />
+    <configuration name="LanzaTransferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_siete.LanzaTransferencias" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cooperacion.*" />
+          <option name="PATTERN" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_siete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="LanzadorHilosBusqueda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.LanzadorHilosBusqueda" />
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.ejercicios.LanzadorHilosBusqueda" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.*" />
+          <option name="PATTERN" value="cooperacion.actividades.ejercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LanzaTransferencias" />
+        <item itemvalue="Application.LanzaContadores" />
         <item itemvalue="Application.ContabilizarEncuesta" />
         <item itemvalue="Application.LanzadorHilosBusqueda" />
         <item itemvalue="Application.Sincronizador" />
-        <item itemvalue="Application.LanzadorHilosSinCuidado" />
-        <item itemvalue="Application.Espera" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668096763145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="synchronous">
+      <created>1668105080851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668105080851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Subo las practicas de hilos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Subo las practicas de hilos" />
+    <MESSAGE value="synchronous" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronous" />
   </component>
 </project>
