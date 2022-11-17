@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Realizo el 5">
-      <change beforePath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Cambio un enunciado">
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej6/Ej6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +37,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/ServiciosYProcesos/Hilos/src/cooperacion/actividades/propuestos_por_mi/ej4"
+    "last_opened_file_path": "D:/ServiciosYProcesos/Hilos/src/cooperacion/actividades/propuestos_por_mi/ej6"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej6" />
       <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej4" />
       <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej3" />
     </key>
@@ -48,7 +50,7 @@
       <recent name="cooperacion.actividades.propuestos_por_mi.ej3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ej5">
+  <component name="RunManager" selected="Application.Ej6">
     <configuration name="Ej1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej1.Ej1" />
       <module name="Hilos" />
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaTransferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_siete.LanzaTransferencias" />
+    <configuration name="Ej6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej6.Ej6" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_siete.*" />
+          <option name="PATTERN" value="cooperacion.actividades.propuestos_por_mi.ej6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ej6" />
         <item itemvalue="Application.Ej5" />
         <item itemvalue="Application.Ej3" />
         <item itemvalue="Application.Ej2" />
         <item itemvalue="Application.Ej1" />
-        <item itemvalue="Application.LanzaTransferencias" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668706901464</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cambio un enunciado">
+      <created>1668707063425</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668707063425</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +205,7 @@
     <MESSAGE value="Reescribo los ejercicios creados por mi y añado hasta el 3." />
     <MESSAGE value="Realizo hasta el 4 y reescribo los ejercicios" />
     <MESSAGE value="Realizo el 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realizo el 5" />
+    <MESSAGE value="Cambio un enunciado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio un enunciado" />
   </component>
 </project>
