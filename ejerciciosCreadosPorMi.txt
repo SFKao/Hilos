@@ -1,0 +1,32 @@
+Ejercicios para practicar hilos.
+Oscar Melero Camacho.
+Ej1.
+Crea un contador con un int y haz que 10 hilos lo aumenten hasta 1000.
+Ej2.
+Crea una clase “Almacen” con un Stack lleno de String con valores numericos (“1”, “2”).
+Inicializa el stack y haz que cada hilo saque cada vez un numero distinto. No tienen porque salir en
+orden.
+Ej3.
+Al ejercicio anterior, añade un temporizador entre 100 y 300 ms tras obtener el valor y imprimirlo.
+Ej4.
+Crea una clase ContadorAtomico que sea completamente estatica y realiza el ej1.
+Ej5.
+Crea un arrayList con 100 Strings con valor numerico o Integers.
+Usando Collections.shuffle(array) randomiza el orden de los valores.
+Los hilos sacaran Strings o Integers de uno en uno y el primero en sacar el String o Integer 1 debe
+avisar que lo ha hecho y el resto al poco parar.
+Ej6.
+Crea una clase para almacenar un arrayList y que los hilos puedan sacar de uno en uno objetos de
+este.
+Ej7.
+Crea 3 objetos de tipo Persona, cada objeto tiene atributo nombre y caramelos (comienzan con 10).
+Crea hilos con 2 personas. Tienen que estar todas las combinaciones (hacerlo a mano).
+Los hilos se encargaran de coger su 1 persona y darle caramelos a la otra que tengan (1 a 3).
+Busca la manera de que no ocurran interbloqueos.
+Ej8.
+Realiza este ejercicio de las siguentes maneras: sincronizacion por objeto, sincronizacion por clase
+(estatico), sincronizacion de codigo por objeto y sincronizacion de codigo por clase.
+Copia el ejercicio 1 del contador y cambialos para que hagan eso (varios tipos de contadores). Que
+cuenten hasta 10. Cuando incrementen, que tengan un delay entre 300 y 500 ms. No tienen porque
+estar todos los hilos en el mismo main.
+Razona cual o cuales terminaran antes y compruebalo
