@@ -10,13 +10,15 @@ Ej3.
 Al ejercicio anterior, añade un temporizador entre 100 y 300 ms tras obtener el valor y imprimirlo.
 Ej4.
 Crea una clase ContadorAtomico que sea completamente estatica y realiza el ej1.
+Razona si puedo tener ahora 2 contadores con valores distintos.
+Razona si con la solucion del ejercicio 1 puedo.
 Ej5.
 Crea un arrayList con 100 Strings con valor numerico o Integers.
 Usando Collections.shuffle(array) randomiza el orden de los valores.
 Los hilos sacaran Strings o Integers de uno en uno y el primero en sacar el String o Integer 1 debe
 avisar que lo ha hecho y el resto al poco parar.
 Ej6.
-Crea una clase para almacenar un arrayList y que los hilos puedan sacar de uno en uno objetos de
+Crea una clase para almacenar un arrayList y que los hilos puedan sacar o insertar de uno en uno objetos de
 este.
 Ej7.
 Crea 3 objetos de tipo Persona, cada objeto tiene atributo nombre y caramelos (comienzan con 10).

@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Añado la solucion de lo de clase y ejercicios propuestos por mi.">
-      <change afterPath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej1/Ej1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej2/Ej2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej3/Ej3.java" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Reescribo los ejercicios creados por mi y añado hasta el 3.">
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej4/Ej4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios creados por mi.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios creados por mi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +38,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/ServiciosYProcesos/Hilos/src/cooperacion/actividades/propuestos_por_mi/ej3"
+    "last_opened_file_path": "D:/ServiciosYProcesos/Hilos/src/cooperacion/actividades/propuestos_por_mi/ej4"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej4" />
       <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -159,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668704873778</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reescribo los ejercicios creados por mi y añado hasta el 3.">
+      <created>1668705763877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668705763877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +181,7 @@
     <MESSAGE value="Subo las practicas de hilos" />
     <MESSAGE value="synchronous" />
     <MESSAGE value="Añado la solucion de lo de clase y ejercicios propuestos por mi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Añado la solucion de lo de clase y ejercicios propuestos por mi." />
+    <MESSAGE value="Reescribo los ejercicios creados por mi y añado hasta el 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reescribo los ejercicios creados por mi y añado hasta el 3." />
   </component>
 </project>
