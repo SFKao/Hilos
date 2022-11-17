@@ -28,8 +28,8 @@ Los hilos se encargaran de coger su 1 persona y darle caramelos a la otra que te
 Busca la manera de que no ocurran interbloqueos.
 Ej8.
 Realiza este ejercicio de las siguentes maneras: sincronizacion por objeto, sincronizacion por clase
-(estatico), sincronizacion de codigo por objeto y sincronizacion de codigo por clase.
-Copia el ejercicio 1 del contador y cambialos para que hagan eso (varios tipos de contadores). Que
+(estatico), sincronizacion de codigo por objeto y sincronizacion de codigo por clase y sincronizacion de codigo por objetos lock (no de clase lock).
+Copia el ejercicio 1 del contador y cambialos para que tengan hasta 3 contadores distintos (3 ints). Que
 cuenten hasta 100. Cuando incrementen, que tengan un delay entre 300 y 500 ms. No tienen porque
 estar todos los hilos en el mismo main.
 Razona cual o cuales terminaran antes y compruebalo
