@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Reescribo los ejercicios creados por mi y añado hasta el 3.">
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej4/Ej4.java" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Realizo hasta el 4 y reescribo los ejercicios">
+      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej5/Ej5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <recent name="cooperacion.actividades.propuestos_por_mi.ej3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ej3">
+  <component name="RunManager" selected="Application.Ej5">
     <configuration name="Ej1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej1.Ej1" />
       <module name="Hilos" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanzaContadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_seis.LanzaContadores" />
+    <configuration name="Ej5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej5.Ej5" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.sincronizacion_hilos_clase.dos_seis.*" />
+          <option name="PATTERN" value="cooperacion.actividades.propuestos_por_mi.ej5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ej5" />
         <item itemvalue="Application.Ej3" />
         <item itemvalue="Application.Ej2" />
         <item itemvalue="Application.Ej1" />
         <item itemvalue="Application.LanzaTransferencias" />
-        <item itemvalue="Application.LanzaContadores" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668705763877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Realizo hasta el 4 y reescribo los ejercicios">
+      <created>1668706060271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668706060271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +189,7 @@
     <MESSAGE value="synchronous" />
     <MESSAGE value="Añado la solucion de lo de clase y ejercicios propuestos por mi." />
     <MESSAGE value="Reescribo los ejercicios creados por mi y añado hasta el 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reescribo los ejercicios creados por mi y añado hasta el 3." />
+    <MESSAGE value="Realizo hasta el 4 y reescribo los ejercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizo hasta el 4 y reescribo los ejercicios" />
   </component>
 </project>

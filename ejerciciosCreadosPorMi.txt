@@ -16,7 +16,8 @@ Ej5.
 Crea un arrayList con 100 Strings con valor numerico o Integers.
 Usando Collections.shuffle(array) randomiza el orden de los valores.
 Los hilos sacaran Strings o Integers de uno en uno y el primero en sacar el String o Integer 1 debe
-avisar que lo ha hecho y el resto al poco parar.
+avisar que lo ha hecho y el resto al poco parar. Añade una pausa cada vez que uno saque un numero.
+Si ya se ha encontrado, que saque null.
 Ej6.
 Crea una clase para almacenar un arrayList y que los hilos puedan sacar o insertar de uno en uno objetos de
 este.
