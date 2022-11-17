@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Realizo hasta el 4 y reescribo los ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej5/Ej5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Realizo el 5">
       <change beforePath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668706060271</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Realizo el 5">
+      <created>1668706901464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668706901464</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +195,7 @@
     <MESSAGE value="Añado la solucion de lo de clase y ejercicios propuestos por mi." />
     <MESSAGE value="Reescribo los ejercicios creados por mi y añado hasta el 3." />
     <MESSAGE value="Realizo hasta el 4 y reescribo los ejercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realizo hasta el 4 y reescribo los ejercicios" />
+    <MESSAGE value="Realizo el 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizo el 5" />
   </component>
 </project>
