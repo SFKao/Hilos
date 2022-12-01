@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Ej 6 terminado">
-      <change afterPath="$PROJECT_DIR$/src/cooperacion/actividades/propuestos_por_mi/ej7/Ej7.java" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Ej 7 terminado">
+      <change afterPath="$PROJECT_DIR$/src/notifywait/ejercicios/Puentes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notifywait/explicaciones/bloqueoConEstados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notifywait/explicaciones/bloqueoConEstadosPrueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosCreadosPorMi.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/ServiciosYProcesos/Hilos/src/cooperacion/actividades/propuestos_por_mi/ej6"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ServiciosYProcesos\Hilos\src\notifywait\explicaciones" />
       <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej6" />
       <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej4" />
       <recent name="D:\ServiciosYProcesos\Hilos\src\cooperacion\actividades\propuestos_por_mi\ej3" />
@@ -51,33 +51,7 @@
       <recent name="cooperacion.actividades.propuestos_por_mi.ej3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ej7">
-    <configuration name="Ej2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej2.Ej2" />
-      <module name="Hilos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.propuestos_por_mi.ej2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ej3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej3.Ej3" />
-      <module name="Hilos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.propuestos_por_mi.ej3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Puentes">
     <configuration name="Ej5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej5.Ej5" />
       <module name="Hilos" />
@@ -117,13 +91,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Puentes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notifywait.ejercicios.Puentes" />
+      <module name="Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notifywait.ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bloqueoConEstados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notifywait.explicaciones.bloqueoConEstados" />
+      <module name="Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notifywait.explicaciones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Puentes" />
+        <item itemvalue="Application.bloqueoConEstados" />
         <item itemvalue="Application.Ej7" />
         <item itemvalue="Application.Ej6" />
         <item itemvalue="Application.Ej5" />
-        <item itemvalue="Application.Ej3" />
-        <item itemvalue="Application.Ej2" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668707393601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ej 7 terminado">
+      <created>1668708015225</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668708015225</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +222,7 @@
     <MESSAGE value="Realizo el 5" />
     <MESSAGE value="Cambio un enunciado" />
     <MESSAGE value="Ej 6 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ej 6 terminado" />
+    <MESSAGE value="Ej 7 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ej 7 terminado" />
   </component>
 </project>
