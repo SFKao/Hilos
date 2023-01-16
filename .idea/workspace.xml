@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Ej 7 terminado">
-      <change afterPath="$PROJECT_DIR$/src/notifywait/ejercicios/Puentes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notifywait/explicaciones/bloqueoConEstados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notifywait/explicaciones/bloqueoConEstadosPrueba.java" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Ping pong">
+      <change afterPath="$PROJECT_DIR$/src/productorConsumidor/ejercicio/ampliacion5/ProductorConsumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/productorConsumidor/ejercicio/carrefour/Carrefour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/productorConsumidor/ejercicio/tictac/Reloj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/productorConsumidor/explicacion/recurso/ProductorConsumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/productorConsumidor/explicacion/recursoThreadSafe/ProductorConsumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/productorConsumidor/explicacion/semaforo/ProductorConsumidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,13 +62,13 @@
       <recent name="cooperacion.actividades.propuestos_por_mi.ej3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Puentes">
-    <configuration name="Ej5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej5.Ej5" />
+  <component name="RunManager" selected="Application.productorConsumidor.ejercicio.ampliacion5.ProductorConsumidor">
+    <configuration name="Carrefour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="productorConsumidor.ejercicio.carrefour.Carrefour" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.propuestos_por_mi.ej5.*" />
+          <option name="PATTERN" value="productorConsumidor.ejercicio.carrefour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ej6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej6.Ej6" />
+    <configuration name="Reloj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="productorConsumidor.ejercicio.tictac.Reloj" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.propuestos_por_mi.ej6.*" />
+          <option name="PATTERN" value="productorConsumidor.ejercicio.tictac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ej7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cooperacion.actividades.propuestos_por_mi.ej7.Ej7" />
+    <configuration name="productorConsumidor.ejercicio.ampliacion5.ProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="productorConsumidor.ejercicio.ampliacion5.ProductorConsumidor" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cooperacion.actividades.propuestos_por_mi.ej7.*" />
+          <option name="PATTERN" value="productorConsumidor.ejercicio.ampliacion5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Puentes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notifywait.ejercicios.Puentes" />
+    <configuration name="productorConsumidor.explicacion.recursoThreadSafe.ProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="productorConsumidor.explicacion.recursoThreadSafe.ProductorConsumidor" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notifywait.ejercicios.*" />
+          <option name="PATTERN" value="productorConsumidor.explicacion.recursoThreadSafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bloqueoConEstados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notifywait.explicaciones.bloqueoConEstados" />
+    <configuration name="productorConsumidor.explicacion.semaforo.ProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="productorConsumidor.explicacion.semaforo.ProductorConsumidor" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notifywait.explicaciones.*" />
+          <option name="PATTERN" value="productorConsumidor.explicacion.semaforo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Puentes" />
-        <item itemvalue="Application.bloqueoConEstados" />
-        <item itemvalue="Application.Ej7" />
-        <item itemvalue="Application.Ej6" />
-        <item itemvalue="Application.Ej5" />
+        <item itemvalue="Application.productorConsumidor.ejercicio.ampliacion5.ProductorConsumidor" />
+        <item itemvalue="Application.Carrefour" />
+        <item itemvalue="Application.productorConsumidor.explicacion.semaforo.ProductorConsumidor" />
+        <item itemvalue="Application.Reloj" />
+        <item itemvalue="Application.productorConsumidor.explicacion.recursoThreadSafe.ProductorConsumidor" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668708015225</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Puentes funcionando">
+      <created>1669895888140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669895888140</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ping pong">
+      <created>1669979704893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669979704893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +248,19 @@
     <MESSAGE value="Cambio un enunciado" />
     <MESSAGE value="Ej 6 terminado" />
     <MESSAGE value="Ej 7 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ej 7 terminado" />
+    <MESSAGE value="Puentes funcionando" />
+    <MESSAGE value="Ping pong" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ping pong" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/productorConsumidor/explicacion/semaforo/ProductorConsumidor.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
