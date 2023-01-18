@@ -47,7 +47,9 @@ class ProcesoLector extends Thread{
             while (true) {
                 baseDeDatos.semaforoLectura.acquire();
                 baseDeDatos.mutex.acquire();
+
                 System.out.println("TAM: "+baseDeDatos.datos.size()+", dato: "+baseDeDatos.datos.pop());
+
                 baseDeDatos.mutex.release();
                 baseDeDatos.semaforoEscritor.release();
             }
@@ -71,8 +73,10 @@ class ProcesoEscritor extends Thread{
             while (true) {
                 baseDeDatos.semaforoEscritor.acquire();
                 baseDeDatos.mutex.acquire();
+
                 baseDeDatos.datos.push(String.valueOf(new Random().nextInt(500)));
                 System.out.println("TAM: "+baseDeDatos.datos.size());
+
                 baseDeDatos.mutex.release();
                 baseDeDatos.semaforoLectura.release();
             }
