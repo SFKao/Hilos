@@ -14,7 +14,7 @@ public class BaseDeDatos {
     }
 
     Stack<String> datos = new Stack<>();
-    final Semaphore semaforoEscritor = new Semaphore(4);
+    final Semaphore semaforoEscritor = new Semaphore(50);
     final Semaphore semaforoLectura = new Semaphore(0);
     final Semaphore mutex = new Semaphore(1);
 
