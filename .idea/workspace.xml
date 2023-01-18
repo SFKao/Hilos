@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="Aqui va">
-      <change afterPath="$PROJECT_DIR$/src/notifywait/ejerciciospropios/drg/DeepRockGalactic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2f6592ce-510e-416a-9afe-11e362569fb2" name="Changes" comment="ROCK AND STONE!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notifywait/ejercicios/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notifywait/ejercicios/PingPong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/productorConsumidor/ejercicio/tictac/Reloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productorConsumidor/ejercicio/tictac/Reloj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notifywait/ejerciciospropios/drg/DeepRockGalactic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notifywait/ejerciciospropios/drg/DeepRockGalactic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673870155802</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ROCK AND STONE!!!">
+      <created>1674038169551</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674038169551</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +262,8 @@
     <MESSAGE value="Puentes funcionando" />
     <MESSAGE value="Ping pong" />
     <MESSAGE value="Aqui va" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aqui va" />
+    <MESSAGE value="ROCK AND STONE!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="ROCK AND STONE!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

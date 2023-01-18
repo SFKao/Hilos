@@ -18,9 +18,9 @@ public class DeepRockGalactic {
         hilos.forEach(hilo -> {
             try {
                 hilo.join();
-            }catch (Exception e){}
+            }catch (Exception ignored){}
         });
-
+        System.out.println("MISION FINALIZADA");
         System.out.println(molly);
     }
 }
@@ -56,6 +56,7 @@ class Enano extends Thread{
                 molly.notifyAll();
             }
         }
+        molly.enanosFinalizados++;
     }
 }
 
@@ -72,13 +73,13 @@ class ControlDeMision extends Thread{
         synchronized (molly){
             while (true) {
                 while (!molly.tieneSuficienteNitra()) {
+                    if(molly.enanosFinalizados==4)
+                        return;
                     try {
                         molly.wait();
                     } catch (InterruptedException ignored) {
                     }
                 }
-                if (molly.nitra < 80)
-                    return;
                 molly.nitra -= 80;
                 System.out.println("Control de mision: Enviando pod de municion");
             }
@@ -88,6 +89,7 @@ class ControlDeMision extends Thread{
 
 class Molly {
     int nitra = 0, oro = 0;
+    int enanosFinalizados = 0;
 
     public Molly() {
     }
