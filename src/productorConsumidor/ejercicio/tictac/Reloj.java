@@ -31,6 +31,7 @@ public class Reloj {
         for (Thread t : tackers)
             t.start();
     }
+
     boolean inTic = false;
 
     public void hacerTic() throws InterruptedException {

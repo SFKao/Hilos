@@ -29,7 +29,7 @@ class Jugador extends Thread{
 
     String nombre;
     boolean iniciadorDeTurno;
-    Juego juego;
+    final Juego juego;
 
     public Jugador(String nombre, boolean iniciadorDeTurno, Juego juego) {
         this.nombre = nombre;
