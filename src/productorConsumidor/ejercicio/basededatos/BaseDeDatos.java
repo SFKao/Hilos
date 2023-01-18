@@ -1,4 +1,4 @@
-package notifywait.ejercicios.basededatos;
+package productorConsumidor.ejercicio.basededatos;
 
 import java.util.Random;
 import java.util.Stack;
